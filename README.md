@@ -3,11 +3,11 @@ strongRandomPasswordToClipboard
 Python script to quickly generate a password and send to system clipboard without revealing text on-screen.
 
 README Contents:
-[Details](#Details)
-[Improvements](#Improvements)
-[Installation and Use](#Installation-and-Use)
+- [Details](#Details)
+- [Improvements](#Improvements)
+- [Installation and Use](#Installation-and-Use)
 
-#Details
+# Details
 ---
 This script creates a 32 character password containing at least one (to be increased) of each of the following:
  - uppercase letter
@@ -21,7 +21,7 @@ Once a password has been generated, the script checks to make sure that the pass
 
 Once a password that meets the requirements is generated, the password is copied to the system clipboard using the [Python Subprocess Module](https://docs.python.org/3/library/subprocess.html). This means that the password is never shown on-screen unless the user pastes it somewhere other than an obfuscated password field, giving the user discretion over whether the password is ever visable on their screen.
 
-#Improvements
+# Improvements
 ---
 ✔ Package for Mac
 - Package for windows
@@ -34,7 +34,7 @@ Once a password that meets the requirements is generated, the password is copied
   - manager program oversees encrypted usernames/passwords (could use OpenSSL to perform aes-256 encryption/decryption for example)
   - the encrypted data could be stored locally or in cloud storage (as long as encryption standard is kept up to date)
   
-#Installation and Use
+# Installation and Use
 ---
 - Download and open [SRP.dmg](dist/SRP.dmg)
 - Copy the SRP.app to your applications folder when prompted
