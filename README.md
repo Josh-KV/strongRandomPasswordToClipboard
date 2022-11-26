@@ -31,7 +31,7 @@ Improvements
   
 Installation and Use
 ---
-- Download and open SRP.dmg
+- Download and open [SRP.dmg](dist/SRP.dmg)
 - Copy the SRP.app to your applications folder when prompted
 - Choose to 'Keep in dock' if desired
 - Click on the app icon, wait a moment, and you are done, there is a strong random password in your system clipboard
