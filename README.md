@@ -28,3 +28,10 @@ Improvements
 - Could be integrated into a password manager program
   - manager program oversees encrypted usernames/passwords (could use OpenSSL to perform aes-256 encryption/decryption for example)
   - the encrypted data could be stored locally or in cloud storage (as long as encryption standard is kept up to date)
+  
+Installation and Use
+---
+- Download and open SRP.dmg
+- Copy the SRP.app to your applications folder when prompted
+- Choose to 'Keep in dock' if desired
+- Click on the app icon, wait a moment, and you are done, there is a strong random password in your system clipboard
