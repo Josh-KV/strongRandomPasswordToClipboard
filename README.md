@@ -25,3 +25,11 @@ Improvements
 - Could be integrated into a password manager program
   - manager program oversees encrypted usernames/passwords (could use OpenSSL to perform aes-256 encryption/decryption for example)
   - the encrypted data could be stored locally or in cloud storage (as long as encryption standard is kept up to date)
+
+# Installation and Use
+---
+(CURRENTLY THE PACKAGED APP SEEMS TO ONLY RUN WHEN THE DMG IS PACKAGED ON THE SAME MACHINE, SO THE BELOW INSTRUCTIONS MAY NOT WORK. FOR NOW THE ONLY WAY I'VE FOUND TO INSTALL PACKAGE ON OTHER MACHINES IS TO CLONE THE REPO AND RUN THE BUILD SCRIPT AFTER INSTALLING THE PYINSTALLER AND CREATE-DMG UTILITIES)
+- Download and open [SRP.dmg](dist/SRP.dmg)
+- Copy the SRP.app to your applications folder when prompted
+- Choose to 'Keep in dock' if desired
+- Click on the app icon from your dock and within a moment your clipboard will contain a strong random password
